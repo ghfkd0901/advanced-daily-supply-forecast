@@ -1,0 +1,31 @@
+{
+  "seq_len": 30,
+  "feature_cols": [
+    "평균기온",
+    "최고기온",
+    "최저기온",
+    "rolling7",
+    "rolling14",
+    "rolling21",
+    "month_sin",
+    "month_cos",
+    "is_holiday",
+    "is_seollal",
+    "is_chuseok",
+    "is_big_holiday_before1",
+    "is_big_holiday_after1",
+    "weekday_Fri",
+    "weekday_Mon",
+    "weekday_Sat",
+    "weekday_Sun",
+    "weekday_Thu",
+    "weekday_Tue",
+    "weekday_Wed"
+  ],
+  "rnn_type": "GRU",
+  "hidden_units_1": 128,
+  "hidden_units_2": 64,
+  "dropout_rate": 0.2,
+  "learning_rate": 0.001,
+  "train_end_date": "2021-12-31"
+}
